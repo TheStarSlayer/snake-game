@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#snake-grid {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    border: 8px solid brown;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.single-grid {
+    /* outline: 1px solid red; */
+    flex: 1;
+}
+
+.snake-grid {
+    background-color: black;
+}
+
+.food-grid {
+    background-color: red;
+}
+
+.empty-grid {
+    background-color: white;
+}
